@@ -134,7 +134,7 @@ const WorkTemplate = props => {
                     node {
                         base
                         childImageSharp {
-                            fluid (maxWidth: 1920) {
+                            fluid(maxWidth: 1920) {
                                 ...GatsbyImageSharpFluid
                             }
                         }
@@ -173,11 +173,6 @@ const WorkTemplate = props => {
         const nextIndex =
             activeIndex === 0 ? images.length - 1 : activeIndex - 1
         setActiveIndex(nextIndex)
-    }
-
-    const goToIndex = newIndex => {
-        if (animating) return
-        setActiveIndex(newIndex)
     }
 
     const slides = images.map(item => {

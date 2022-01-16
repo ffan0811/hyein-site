@@ -225,7 +225,7 @@ const InfoPage = () => {
                                 <span className="owner-deco">
                                     <img
                                         src={ownerImg}
-                                        alt="site owner image, holding plants, smiling"
+                                        alt="site owner profile, holding plants, smiling"
                                     />
                                 </span>
                             </ImgWrapper>
@@ -255,6 +255,7 @@ const InfoPage = () => {
                                                 <a
                                                     href="https://blog.naver.com/invely20"
                                                     target="_blank"
+                                                    rel="noreferrer"
                                                 >
                                                     blog.naver.com/invely20
                                                 </a>

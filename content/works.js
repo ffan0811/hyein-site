@@ -45,8 +45,28 @@ const works = [
     },
     {
         value: 'project12',
-        label: '제 13회 대전광역시 공공디자인 공모전'
-    }
+        label: '제 13회 대전광역시 공공디자인 공모전',
+    },
+    {
+        value: 'project13',
+        label: '2021 디에스디 삼호 조경나눔공모전',
+    },
+    {
+        value: 'project14',
+        label: '광역단지 및 설계',
+    },
+    {
+        value: 'project15',
+        label: '제 1회 미래학교 공모전',
+    },
+    {
+        value: 'project16',
+        label: '제 21회 자연환경대상',
+    },
+    {
+        value: 'project17',
+        label: '제19회 농촌계획대전',
+    },
 ]
 
 export { works }
